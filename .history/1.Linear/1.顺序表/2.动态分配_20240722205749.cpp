@@ -6,8 +6,7 @@ typedef struct
     int MaxSize;
     int length;
 }SeqList;
-void InitList(SeqList &L)
-{
+void InitList(SeqList &L){
     L.data=new ElemType[InitSize];
     //L.data=(ElemType *)malloc(InitSize*sizeof(ElemType));
     L.length=0;

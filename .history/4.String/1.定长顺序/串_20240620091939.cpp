@@ -6,4 +6,4 @@ int main(){
     HString S;
     S.ch=new char(255);
     return 0;
-}
+} 

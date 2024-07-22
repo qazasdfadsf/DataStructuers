@@ -1,4 +1,3 @@
-#include "init.h"
 #define MAXLEN 255
 typedef struct 
 {
