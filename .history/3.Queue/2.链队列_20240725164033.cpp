@@ -52,6 +52,8 @@ void EnQueue(LinkQueue &Q,ElemType &x)
         Q.rear=s;
     }
     */
+    
+
 }
 bool DeQueue(LinkQueue &Q,ElemType &x)
 {//出队
@@ -69,4 +71,6 @@ bool DeQueue(LinkQueue &Q,ElemType &x)
     }
     delete p;
     return true;
+
+    
 }
