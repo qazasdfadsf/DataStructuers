@@ -1,7 +1,4 @@
-#ifndef MY_HEADER_H // 防止重复包含
-#define MY_HEADER_H
-
-#include <iostream> // 包含输入输出流头文件
+#include <iostream>
 using namespace std;
 
 // 定义元素类型结构体
@@ -24,4 +21,3 @@ struct VertexType {
     int id; // 顶点的ID
 };
 
-#endif // MY_HEADER_H
