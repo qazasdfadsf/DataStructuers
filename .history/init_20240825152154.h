@@ -12,9 +12,7 @@ struct ElemType {
     bool operator==(const ElemType& other) const {
         return value == other.value;
     }
-    bool operator>(const ElemType& other) const {
-        return value > other.value;
-    }
+
     // 重载 != 运算符，用于比较两个 ElemType 是否不相等
     bool operator!=(const ElemType& other) const {
         return value != other.value;
@@ -26,7 +24,7 @@ struct VertexType {
     int id; // 顶点的ID
 };
 
-bool visit(int Edge){
+bool visit(){
     printf("v");
 }
 #endif // MY_HEADER_H
