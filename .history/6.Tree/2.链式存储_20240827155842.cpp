@@ -5,7 +5,7 @@ typedef struct BiTNode
     ElemType data;
     struct BiTNode *lchild,*rchild;
     // struct BiTNode *parent;视情况而定
-}BiTNode,*BiTree;
+}BiTNode,*BiTree;                               
 void visit(BiTree T)
 {//访问子树
     printf("%d",T->data);
@@ -23,17 +23,17 @@ void InOrder(BiTree T)
 {//中序遍历
     if (T!=NULL)
     {
-        PreOrder(T->lchild);
+        InOrder(T->lchild);
         visit(T);
-        PreOrder(T->rchild);
+        InOrder(T->rchild);
     }
 }
 void PostOrder(BiTree T)
 {//后序遍历
     if (T!=NULL)
     {
-        PreOrder(T->lchild);
-        PreOrder(T->rchild);
+        PostOrder(T->lchild);
+        PostOrder(T->rchild);
         visit(T);
     }
 }

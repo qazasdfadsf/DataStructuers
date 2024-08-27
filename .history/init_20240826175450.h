@@ -12,17 +12,12 @@ struct ElemType {
     bool operator==(const ElemType& other) const {
         return value == other.value;
     }
-
-    // 重载 > 运算符，用于比较两个 ElemType 的大小
     bool operator>(const ElemType& other) const {
         return value > other.value;
     }
-
-    // 重载 < 运算符，用于比较两个 ElemType 的大小
     bool operator<(const ElemType& other) const {
         return value < other.value;
     }
-
     // 重载 != 运算符，用于比较两个 ElemType 是否不相等
     bool operator!=(const ElemType& other) const {
         return value != other.value;
@@ -32,22 +27,9 @@ struct ElemType {
 // 顶点类型结构体，用于图的表示
 struct VertexType {
     int id; // 顶点的ID
-
-    // 重载 == 运算符，用于比较两个 VertexType 是否相等
-    bool operator==(const VertexType& other) const {
-        return id == other.id;
-    }
-
-    // 重载 != 运算符，用于比较两个 VertexType 是否不相等
-    bool operator!=(const VertexType& other) const {
-        return id != other.id;
-    }
 };
 
-// 模拟访问边的函数
-bool visit(int edge) {
-    cout << "Visiting edge: " << edge << endl;
-    return true; // 返回 true 表示访问成功
+bool visit(int Edge){
+    printf("v");
 }
-
 #endif // MY_HEADER_H

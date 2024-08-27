@@ -5,7 +5,7 @@ typedef struct BiTNode
     ElemType data;
     struct BiTNode *lchild,*rchild;
     // struct BiTNode *parent;视情况而定
-}BiTNode,*BiTree;
+}BiTNode,*BiTree;                               
 void visit(BiTree T)
 {//访问子树
     printf("%d",T->data);
