@@ -51,7 +51,7 @@ struct VertexType {
 
 // 模拟访问边的函数
 bool visit(int edge) {
-    std::cout << "Visiting edge: " << edge << std::endl;
+    cout << "Visiting edge: " << edge << endl;
     return true; // 返回 true 表示访问成功
 }
 

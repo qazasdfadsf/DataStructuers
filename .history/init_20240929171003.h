@@ -27,12 +27,7 @@ struct ElemType {
     bool operator!=(const ElemType& other) const {
         return value != other.value;
     }
-    
 };
-std::ostream& operator<<(std::ostream& os, const ElemType& elem) {
-    os << elem.value;
-    return os;
-}
 
 // 顶点类型结构体，用于图的表示
 struct VertexType {
@@ -51,7 +46,7 @@ struct VertexType {
 
 // 模拟访问边的函数
 bool visit(int edge) {
-    std::cout << "Visiting edge: " << edge << std::endl;
+    cout << "Visiting edge: " << edge << endl;
     return true; // 返回 true 表示访问成功
 }
 
