@@ -1,6 +1,6 @@
 #ifndef MY_HEADER_H // 防止重复包含
 #define MY_HEADER_H
-
+using namespace std;
 #include <iostream> // 包含输入输出流头文件
 
 

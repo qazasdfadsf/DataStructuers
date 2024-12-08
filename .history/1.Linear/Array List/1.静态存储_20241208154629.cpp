@@ -87,4 +87,3 @@ void Converse(int R[],int n,int p)
     Reverse(R,p,n-1);
     Reverse(R,0,n-1);
 }
-//2011

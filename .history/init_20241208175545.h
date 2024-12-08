@@ -1,6 +1,6 @@
 #ifndef MY_HEADER_H // 防止重复包含
 #define MY_HEADER_H
-
+using namespace std;
 #include <iostream> // 包含输入输出流头文件
 
 
@@ -51,8 +51,21 @@ struct VertexType {
 
 // 模拟访问边的函数
 bool visit(int edge) {
-    cout << "Visiting edge: " << edge << endl;
+    std::cout << "Visiting edge: " << edge << std::endl;
     return true; // 返回 true 表示访问成功
 }
 
 #endif // MY_HEADER_H
+//Linear
+// 定义顺序栈的结构体
+struct SqStack {
+    char *data;  // 数据数组
+    int top;     // 栈顶指针
+    int maxSize; // 栈的最大容量
+};
+
+// 函数声明
+void InitStack(SqStack &S);
+bool StackEmpty(SqStack S);
+bool Push(SqStack &S, char x);
+bool Pop(SqStack &S, char &x);

@@ -54,5 +54,18 @@ bool visit(int edge) {
     std::cout << "Visiting edge: " << edge << std::endl;
     return true; // 返回 true 表示访问成功
 }
-//Linear
+
 #endif // MY_HEADER_H
+//Linear
+// 定义顺序栈的结构体
+struct SqStack {
+    char *data;  // 数据数组
+    int top;     // 栈顶指针
+    int maxSize; // 栈的最大容量
+}SqStack;
+
+// 函数声明
+void InitStack(SqStack &S);
+bool StackEmpty(SqStack S);
+bool Push(SqStack &S, char x);
+bool Pop(SqStack &S, char &x);

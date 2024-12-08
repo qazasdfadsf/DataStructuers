@@ -1,4 +1,5 @@
 #include "init.h"
+using namespace std;
 #define InitSize 10
 typedef struct
 {

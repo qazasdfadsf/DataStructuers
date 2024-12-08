@@ -84,7 +84,5 @@ void Reverse(int R[],int from,int to)
 void Converse(int R[],int n,int p)
 {
     Reverse(R,0,p-1);
-    Reverse(R,p,n-1);
-    Reverse(R,0,n-1);
+    Reverse(R,0,p-1);
 }
-//2011

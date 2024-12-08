@@ -1,4 +1,5 @@
 #include "init.h"
+#include "Stack/1.顺序栈.cpp"
 #define MaxSize 10
 typedef struct 
 {
@@ -9,7 +10,6 @@ void InitStack(SqStack &S);
 bool StackEmpty(SqStack S);
 bool Push(SqStack &S, char x);
 bool Pop(SqStack &S, char &x);
-
 bool bracketCheck(char str[],int length){
     SqStack S;
     InitStack(S);

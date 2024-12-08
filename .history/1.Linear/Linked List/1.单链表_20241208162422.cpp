@@ -60,7 +60,7 @@ int Length(LinkList L)
     }
     return len;
 }
-LNode* GetElem(LinkList L,int i)
+LNode *GetElem(LinkList L,int i)
 {//按位查找  O(n)
     if(i<0)
     {
@@ -250,7 +250,7 @@ LinkList List_TailInsert(LinkList &L)
     ElemType x;
     L=new LNode;
     LNode* s;
-    LNode* r=L;//表尾指针
+    LNode*r=L;//表尾指针
     scanf("%d",&x);
     while (x.value!=9999)
     {//后插

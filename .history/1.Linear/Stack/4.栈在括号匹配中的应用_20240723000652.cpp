@@ -5,11 +5,11 @@ typedef struct
     char data[MaxSize];
     int top;
 }SqStack;
-void InitStack(SqStack &S);
-bool StackEmpty(SqStack S);
-bool Push(SqStack &S, char x);
-bool Pop(SqStack &S, char &x);
-
+void InitStack(SqStack &S){}
+bool StackEmpty(SqStack S){}
+bool Push(SqStack &S,char x){}
+bool Pop(SqStack &S,char &x){}
+//=================================================
 bool bracketCheck(char str[],int length){
     SqStack S;
     InitStack(S);
