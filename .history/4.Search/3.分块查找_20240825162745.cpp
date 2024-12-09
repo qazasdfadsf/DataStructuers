@@ -10,7 +10,7 @@ typedef struct
 
 */
 typedef struct 
-{//索引表
+{
     ElemType maxValue;
     int low,high;
 }Index;

@@ -1,6 +1,6 @@
 #include "init.h"
 typedef struct
-{//有序顺序表
+{//索引表
     ElemType maxValue;
     int TableLen;
 }SSTable;
@@ -10,7 +10,7 @@ typedef struct
 
 */
 typedef struct 
-{//索引表
+{
     ElemType maxValue;
     int low,high;
 }Index;

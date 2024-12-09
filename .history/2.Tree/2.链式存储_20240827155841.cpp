@@ -1,5 +1,5 @@
 #include "init.h"
-#include "2.Queue.h"
+#include "2.Queue.cpp"
 typedef struct BiTNode
 {
     ElemType data;

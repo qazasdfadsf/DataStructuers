@@ -5,7 +5,7 @@ struct TreeNode
     int value;//ElemType value;
     bool isEmpty;
 };
-                         
+
 
 int main()
 {

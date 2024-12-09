@@ -10,4 +10,3 @@ int Search_Seq(SSTable ST,ElemType key)
     for(i=0;i<ST.TableLen && ST.elem[i]!=key;++i);
     return i==ST.TableLen? -1:i;
 }
-        
